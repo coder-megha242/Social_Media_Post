@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
+    background: #c7b5b5;
+}
+.heading{
+    margin-top: 50px;
+    height: 500px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(7, 146, 146);
+    font-size: 20px;
+}
+footer{
+    background-color: crimson;
+    padding: 70px 0;
+}
+ul{
+    list-style: none;
+}
+.container{
+    max-width: 1170px;
+    margin: auto;
+}
+.foot-row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.foot-column{
+    width: 25%;
+    padding: 0 15px;
+}
+.title{
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: 500;
+    position: relative;
+}
+.title::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: mediumaquamarine;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+.foot-column ul li a {
+    font-size: 16px;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+.foot-column ul li a{
+    margin-bottom: 10px;
+}
+.foot-column ul li a:hover{
+    color: #ffffff;
+    padding-left: 10px;
+}
+@media(max-width: 767px){
+    .foot-column{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+@media(max-width: 767px){
+    .foot-column{
+        width: 100%;
+        
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.attribution{
+    text-align: center;
+    margin-top: 25px;
+    
+}
+.attribution span{
+     color: rgb(7, 146, 146); ;
+}

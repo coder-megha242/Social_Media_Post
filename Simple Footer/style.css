@@ -1,0 +1,44 @@
+.content{
+    font-weight: 300;
+    font-size: 60px;
+    height: 500px;
+    text-align: center;
+    color: rgb(29, 26, 26);
+    background-color: beige;
+}
+
+footer{
+    background-color: rgb(29, 26, 26);
+    color:  rgb(232, 232, 238);
+    padding: 20px;
+    font-family: Arial;
+   
+}
+.example{
+    background-color: slategrey;
+    padding: 15px;
+    color: rgb(232, 232, 238);
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+.menu-columns{
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr 3fr;
+    padding: 20px;
+}
+.title{
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 25px;
+    color: beige;
+}
+.title~div{
+    margin-bottom: 20px;
+}
+.attribution{
+    text-align: center;
+}
+.attribution span{
+    color: rgb(204, 137, 198);
+}
